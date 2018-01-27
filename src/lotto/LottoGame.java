@@ -7,7 +7,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class LottoGame {
-	static void _lotto() {
+	void _lotto() {
 		Scanner s = new Scanner(System.in);
 		Random rand = new Random();
 		List<Integer> yourNumbers = new ArrayList<Integer>();
@@ -74,7 +74,7 @@ public class LottoGame {
 		}
 	}
 
-	static void miniLotto() {
+	void miniLotto() {
 		Scanner s = new Scanner(System.in);
 		Random rand = new Random();
 		List<Integer> yourNumbers = new ArrayList<Integer>();
@@ -138,7 +138,7 @@ public class LottoGame {
 		}
 	}
 
-	static void multiMulti() {
+	void multiMulti() {
 		Scanner s = new Scanner(System.in);
 		Random rand = new Random();
 		List<Integer> yourNumbers = new ArrayList<Integer>();
@@ -313,7 +313,7 @@ public class LottoGame {
 		}
 	}
 
-	static void ekstraPensja() {
+	void ekstraPensja() {
 		Scanner s = new Scanner(System.in);
 		Random rand = new Random();
 		List<Integer> yourNumbers = new ArrayList<Integer>();
@@ -419,7 +419,7 @@ public class LottoGame {
 			System.out.println("Unfortunately, you haven't won anything :(");
 	}
 
-	static void kaskada() {
+	void kaskada() {
 		Scanner s = new Scanner(System.in);
 		Random rand = new Random();
 		List<Integer> yourNumbers = new ArrayList<Integer>();
