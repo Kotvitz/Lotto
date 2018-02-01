@@ -442,11 +442,11 @@ public class LottoGame {
 		Collections.sort(yourNumbers);
 		Collections.sort(yourNumbers2);
 		
-		System.out.print("First set: ");
+		System.out.print("Your first set: ");
 		for (int i = 0; i < yourNumbers.size(); i++)
 			System.out.print(yourNumbers.get(i) + " ");
 		System.out.println(" ");
-		System.out.print("Second set: ");
+		System.out.print("Your second set: ");
 		for (int i = 0; i < yourNumbers2.size(); i++)
 			System.out.print(yourNumbers2.get(i) + " ");
 		System.out.println("\n");
@@ -477,7 +477,7 @@ public class LottoGame {
 		}
 		
 		System.out.println("Amount of hit numbers in first set: " + correctNumbers.size());
-		System.out.println("Amount of hit chosen numbers in second set: " + correctNumbers2.size());
+		System.out.println("Amount of hit numbers in second set: " + correctNumbers2.size());
 		if (correctNumbers.size() == 12 || correctNumbers2.size() == 12)
 			System.out.println("You won 250 000 PLN!");
 		else if (correctNumbers.size() == 11 || correctNumbers2.size() == 11)
